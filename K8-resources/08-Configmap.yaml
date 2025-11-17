@@ -5,7 +5,7 @@ metradata:
   labels:
     purpose: config
     env: dev
-DATA:
+data:
   COURSE: KUBERNETEES
   DURATION: 5 DAYS
   LEARNER: WILLIAM
