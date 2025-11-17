@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Configmap
+metradata: 
+  name: pod-config
+  labels:
+    purpose: config
+    env: dev
+DATA:
+  COURSE: KUBERNETEES
+  DURATION: 5 DAYS
+  LEARNER: WILLIAM
