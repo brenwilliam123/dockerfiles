@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: configmap
+metadata:
+  name: pod-config
+  labels:
+    purpose: config
+    env: dev
+data:
+  courae: "Devops with aws"
+  Duration: 12 hours
+  trainer: "Reinhard"
